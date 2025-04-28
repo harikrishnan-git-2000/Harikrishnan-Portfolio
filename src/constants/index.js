@@ -16,9 +16,13 @@ const navLinks = [
 
 const words = [
     { text: "Ideas", imgPath: "./images/ideas.svg" },
-    { text: "Concepts", imgPath: "./images/ideas.svg" },
-    { text: "Designs", imgPath: "./images/ideas.svg" },
-    { text: "Code", imgPath: "./images/ideas.svg" },
+    { text: "Concepts", imgPath: "./images/concepts.svg" },
+    { text: "Designs", imgPath: "./images/designs.svg" },
+    { text: "Code", imgPath: "./images/code.svg" },
+    { text: "Ideas", imgPath: "./images/ideas.svg" },
+    { text: "Concepts", imgPath: "./images/concepts.svg" },
+    { text: "Designs", imgPath: "./images/designs.svg" },
+    { text: "Code", imgPath: "./images/code.svg" },
 
 ];
 
@@ -31,7 +35,7 @@ const techStackIcons = [
     },
     {
         name: "Interactive Developer",
-        modelPath: "/models/three.js-transformed.glb",
+        modelPath: "./models/three.js-transformed.glb",
         scale: 0.05,
         rotation: [0, 0, 0],
     },
@@ -50,7 +54,7 @@ const techStackIcons = [
     },
     {
         name: "UI/UX & Graphic Designer",
-        modelPath: "/models/ps.glb",
+        modelPath: "./models/ps.glb",
         scale: 3,
         rotation: [0, 0, 0],
     },
