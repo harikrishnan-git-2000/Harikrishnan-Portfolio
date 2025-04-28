@@ -1,7 +1,6 @@
 {
   "name": "3d_portfolio",
   "homepage": "https://harikrishnan-git-2000.github.io/Harikrishnan-3d-Portfolio/",
-  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
