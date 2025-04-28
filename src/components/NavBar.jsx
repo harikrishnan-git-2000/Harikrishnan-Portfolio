@@ -14,7 +14,8 @@ const NavBar = () => {
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
-    const resumeUrl = '/public/Harikrishnan_Resume.pdf';
+    // FIX: Changed path to be relative to the site root
+    const resumeUrl = '/Harikrishnan_Resume.pdf';
 
     return (
         <header className={`navbar ${scrolled ? 'scrolled' : 'not-scrolled'}`}>
@@ -35,6 +36,7 @@ const NavBar = () => {
                 </nav>
 
                 <div className="flex gap-4">
+                    {/* This href is now correct */}
                     <a href={resumeUrl} download className="contact-btn group">
                         <div className="inner">
                             <span>Download CV</span>

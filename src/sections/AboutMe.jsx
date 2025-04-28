@@ -4,9 +4,11 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger"; // Import ScrollTrigger
 
 // --- Component Constants ---
-const profilePicUrl = '/images/ProfilePhoto.png'; // Ensure path is correct
-const resumeUrl = 'public/Harikrishnan_Resume.pdf';      // Ensure path is correct
+// Assuming ProfilePhoto.png is in public/images
+const profilePicUrl = '/images/ProfilePhoto.png';
 
+// FIX: Changed path to be relative to the site root
+const resumeUrl = '/Harikrishnan_Resume.pdf';
 
 gsap.registerPlugin(ScrollTrigger); // Register the ScrollTrigger plugin
 
@@ -37,11 +39,11 @@ function AboutMe() {
             scrollTrigger: {
                 trigger: sectionEl,       // Element that triggers the animation
                 start: "top 90%",         // Animation starts when the top of sectionEl hits 75% down from the viewport top
-                // end: "bottom center",  // Optional: define when the trigger ends
-                // toggleActions: "play none none none", // "onEnter onLeave onEnterBack onLeaveBack" -> play animation on enter
+                end: "bottom center",  // Optional: define when the trigger ends
+                toggleActions: "play none none none", // "onEnter onLeave onEnterBack onLeaveBack" -> play animation on enter
                 scrub: true, // Optional: Smoothly animate based on scroll position
                 // markers: true, // Optional: Show visual markers for debugging start/end points
-                once: true                // Optional: Only trigger the animation once
+                once: false                // Optional: Only trigger the animation once
             },
             defaults: { duration: 0.8, ease: 'power3.out' }
         });
@@ -105,6 +107,7 @@ function AboutMe() {
                             />
                         </div>
                         <div className="flex flex-wrap gap-4 justify-center w-full max-w-sm">
+                            {/* This href is now correct */}
                             <a href={resumeUrl} download className="btn group">
                                 <div className="btn-inner">
                                     <span>Download CV</span>
