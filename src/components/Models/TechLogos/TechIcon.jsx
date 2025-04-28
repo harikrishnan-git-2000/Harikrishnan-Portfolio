@@ -18,7 +18,7 @@ const TechIcon = ({model}) => {
             <Environment preset = "city" />
             <OrbitControls
                 enableZoom={false}
-                enablePan={false}
+                enablePan={!isTablet && !isMobile}
             />
             <Float speed={5.5} rotationIntensity={1} floatIntensity={1}>
                 <group scale={model.scale} rotation={model.rotation} position={model.position}>
