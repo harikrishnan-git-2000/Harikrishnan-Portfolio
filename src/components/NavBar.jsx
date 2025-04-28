@@ -15,7 +15,7 @@ const NavBar = () => {
     }, []);
 
     // FIX: Changed path to be relative to the site root
-    const resumeUrl = '/Harikrishnan_Resume.pdf';
+    const resumeUrl = '/Harikrishnan Resume.pdf';
 
     return (
         <header className={`navbar ${scrolled ? 'scrolled' : 'not-scrolled'}`}>
