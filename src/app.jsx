@@ -6,6 +6,7 @@ import TechStack from "./sections/TechStack.jsx";
 import ContactSection from "./sections/ContactSection.jsx";
 import Footer from "./sections/Footer.jsx";
 import AboutMe from "./sections/AboutMe.jsx";
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 
 
@@ -20,6 +21,7 @@ const App = () => {
        <ExperienceSection />
        <ContactSection />
        <Footer />
+          <SpeedInsights />
        </>
     )
 }
