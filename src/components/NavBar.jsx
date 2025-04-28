@@ -14,7 +14,7 @@ const NavBar = () => {
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
-    const resumeUrl = './ASSETS/assets/Harikrishnan_Resume.pdf';
+    const resumeUrl = '/public/Harikrishnan_Resume.pdf';
 
     return (
         <header className={`navbar ${scrolled ? 'scrolled' : 'not-scrolled'}`}>

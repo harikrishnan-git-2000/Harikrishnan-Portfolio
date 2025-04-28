@@ -5,7 +5,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger"; // Import ScrollTrigger
 
 // --- Component Constants ---
 const profilePicUrl = '/images/ProfilePhoto.png'; // Ensure path is correct
-const resumeUrl = './ASSETS/assets/Harikrishnan_Resume.pdf';      // Ensure path is correct
+const resumeUrl = 'public/Harikrishnan_Resume.pdf';      // Ensure path is correct
 
 
 gsap.registerPlugin(ScrollTrigger); // Register the ScrollTrigger plugin
