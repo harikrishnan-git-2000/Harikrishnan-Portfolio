@@ -27,6 +27,7 @@
     "react-dom": "^19.1.0",
     "react-glassmorphism": "^0.0.1",
     "react-responsive": "^10.0.1",
+    "source-map-loader": "^5.0.0",
     "three": "^0.175.0"
   },
   "devDependencies": {

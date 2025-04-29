@@ -6,7 +6,8 @@ import {useMediaQuery} from "react-responsive";
 
 
 const TechIcon = ({model}) => {
-    const scene = useGLTF(model.modelPath);
+    const scenePath = model.modelPath.startsWith('/') ? model.modelPath : '/' + model.modelPath;
+    const scene = useGLTF(scenePath);
     const isTablet = useMediaQuery({ query: '(max-width: 1024px)' });
     const isMobile = useMediaQuery({ query: '(max-width: 768px)' });
 
