@@ -35,26 +35,26 @@ const techStackIcons = [
     },
     {
         name: "Interactive Developer",
-        modelPath: "./models/three.js-transformed.glb", // already optimized
+        modelPath: "/models/three.js-transformed.glb", // already optimized
         scale: 0.05,
         rotation: [0, 0, 0],
     },
     {
         name: "3D Animation Developer",
-        modelPath: "./models/blender.glb", // already optimized
+        modelPath: "/models/blender.glb", // already optimized
         scale: 7.5,
         rotation: [0, -Math.PI / 11, 0],
         position: [0.5, -9, -5],
     },
     {
         name: "Motion Graphic Designer",
-        modelPath: "./models/ae.glb", // already optimized
+        modelPath: "/models/ae.glb", // already optimized
         scale: 3,
         rotation: [0, 0, 0],
     },
     {
         name: "UI/UX & Graphic Designer",
-        modelPath: "./models/ps.glb",
+        modelPath: "/models/ps.glb",
         scale: 3,
         rotation: [0, 0, 0],
     },
