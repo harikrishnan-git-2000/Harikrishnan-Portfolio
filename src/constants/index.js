@@ -29,26 +29,26 @@ const words = [
 const techStackIcons = [
     {
         name: "React Developer",
-        modelPath: "/models/react_logo-transformed.glb",
+        modelPath: "/models/react_logo-transformed.glb", // already optimized
         scale: 1,
         rotation: [0, 0, 0],
     },
     {
         name: "Interactive Developer",
-        modelPath: "./models/three.js-transformed.glb",
+        modelPath: "./models/three.js-transformed.glb", // already optimized
         scale: 0.05,
         rotation: [0, 0, 0],
     },
     {
         name: "3D Animation Developer",
-        modelPath: "./models/blender.glb",
+        modelPath: "./models/blender.glb", // already optimized
         scale: 7.5,
         rotation: [0, -Math.PI / 11, 0],
         position: [0.5, -9, -5],
     },
     {
         name: "Motion Graphic Designer",
-        modelPath: "./models/ae.glb",
+        modelPath: "./models/ae.glb", // already optimized
         scale: 3,
         rotation: [0, 0, 0],
     },
@@ -65,8 +65,8 @@ const expCards = [
         company: "Magic Bus India Foundation(funded by accenture)",
         review:
             "Proficient in building responsive and user-friendly web interfaces using HTML, CSS, JavaScript, and React.js. Eager to apply learned skills in a dynamic front-end development role.",
-        imgPath: "./ASSETS/assets/MagicBus/logo.png",
-        logoPath: "./ASSETS/assets/MagicBus/logo.png",
+        imgPath: "./ASSETS/assets/MagicBus/logo.webp",
+        logoPath: "./ASSETS/assets/MagicBus/logo.webp",
         title: "Front-End Developer Apprentice-ship",
         date: "Jan 2025 - Present",
         responsibilities: [
@@ -80,8 +80,8 @@ const expCards = [
         company: "ARR Immersive Entertainment",
         review:
             "Interested in VR technology and wanted to learn more about it, I worked at ARR Immersive Entertainment as a Virtual Reality Generalist (Internship) gaining knowledge in various VR technologies and applications.",
-        imgPath: "./ASSETS/assets/ARR/logo.jpg",
-        logoPath: "./ASSETS/assets/ARR/logo.jpg",
+        imgPath: "./ASSETS/assets/ARR/logo.webp",
+        logoPath: "./ASSETS/assets/ARR/logo.webp",
         title: "Virtual Reality Generalist (Internship)",
         date: "July 2024 - December 2024",
         responsibilities: [
@@ -95,8 +95,8 @@ const expCards = [
         company: "Fix It In Post Studios",
         review:
             "During my internship at Fix It In Post Studios, I contributed to various projects involving VFX compositing, 2D/3D animation, motion graphics, and graphic design for films, ad films, and music videos.",
-        imgPath: "./ASSETS/assets/FIIP/FIXITINPOST_logo.png",
-        logoPath: "./ASSETS/assets/FIIP/FIXITINPOST_logo.png",
+        imgPath: "./ASSETS/assets/FIIP/FIXITINPOST_logo.webp",
+        logoPath: "./ASSETS/assets/FIIP/FIXITINPOST_logo.webp",
         title: "VFX /Animation",
         date: "November 2022 - November 2023",
         responsibilities: [
@@ -111,8 +111,8 @@ const expCards = [
         company: "RV Matrix Software Technologies Pvt Ltd",
         review:
             "As a UI/UX Design and Graphic Designer intern at RV Matrix Software Technologies, my primary focus was creating user-centered designs for web applications and supporting marketing efforts with graphic assets.",
-        imgPath: "./ASSETS/assets/RVM/RVM_logo.jpg",
-        logoPath: "./ASSETS/assets/RVM/RVM_logo.jpg",
+        imgPath: "./ASSETS/assets/RVM/RVM_logo.webp",
+        logoPath: "./ASSETS/assets/RVM/RVM_logo.webp",
         title: "UI UX Design / Graphic Designer internship",
         date: "March 2022 - July 2022",
         responsibilities: [
@@ -126,19 +126,19 @@ const expCards = [
 const expLogos = [
     {
         name: "logo1",
-        imgPath: "./ASSETS/assets/MagicBus/logo.png",
+        imgPath: "./ASSETS/assets/MagicBus/logo.webp",
     },
     {
         name: "logo2",
-        imgPath: "./ASSETS/assets/ARR/logo.jpg",
+        imgPath: "./ASSETS/assets/ARR/logo.webp",
     },
     {
         name: "logo3",
-        imgPath: "./ASSETS/assets/FIIP/FIXITINPOST_logo.png",
+        imgPath: "./ASSETS/assets/FIIP/FIXITINPOST_logo.webp",
     },
     {
         name: "logo4",
-        imgPath: "./ASSETS/assets/RVM/RVM_logo.jpg",
+        imgPath: "./ASSETS/assets/RVM/RVM_logo.webp",
     },
 ];
 
@@ -147,22 +147,22 @@ const socialImgs = [
     {
         name: "insta",
         url: "https://www.instagram.com/",
-        imgPath: "/images/insta.png",
+        imgPath: "/images/insta.webp",
     },
     {
         name: "fb",
         url: "https://www.facebook.com/",
-        imgPath: "/images/fb.png",
+        imgPath: "/images/fb.webp",
     },
     {
         name: "x",
         url: "https://www.x.com/",
-        imgPath: "/images/x.png",
+        imgPath: "/images/x.webp",
     },
     {
         name: "linkedin",
         url: "https://www.linkedin.com/",
-        imgPath: "/images/linkedin.png",
+        imgPath: "/images/linkedin.webp",
     },
 ];
 
@@ -170,7 +170,7 @@ export const projects = [
     {
         id: 'proj-card-1', // Unique ID for linking
         title: "Instagram clone",
-        image: "/images/project3.png",
+        image: "/images/project3.webp",
         tags: ["Angular", "MongoDB"],
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
 
@@ -178,7 +178,7 @@ export const projects = [
     {
         id: 'proj-card-2', // Unique ID for linking (assuming this was a distinct project)
         title: "Thirukural - feature film CG (Self Employed)", // Renamed from duplicate
-        image: "./ASSETS/assets/Thirukural/Templecover.png", // Use correct image
+        image: "./ASSETS/assets/Thirukural/Templecover.webp", // Use correct image
         tags: ["Svelte", "Firebase"],
         description: "Created movie shots depicting the forts of the three kings in south india",
 
@@ -186,7 +186,7 @@ export const projects = [
     {
         id: 'proj-card-3', // Unique ID for linking (assuming this was a distinct project)
         title: "Nippon Paints (Self Employed)", // Renamed from duplicate
-        image: "./ASSETS/assets/Nippon/images.png", // Use correct image
+        image: "./ASSETS/assets/Nippon/images.webp", // Use correct image
         tags: ["Adobe Illustrator","Adobe After Effects"],
         description: "Animations, Editing for Nippon Pro Champs",
     },
@@ -195,7 +195,7 @@ export const projects = [
     {
         id: 'proj-card-4', // Unique ID for linking (assuming this was a distinct project)
         title: "Madras Canine Club (Self Employed)", // Renamed from duplicate
-        image: "./ASSETS/assets/madras canine club/images.png", // Use correct image
+        image: "./ASSETS/assets/madras canine club/images.webp", // Use correct image
         tags: ["Blender"],
         description: "Created a detailed 3D visual layout for the mMadras Canine Club Dog Show.",
     },
@@ -203,7 +203,7 @@ export const projects = [
         id: 'proj-card-5', // Unique ID for linking (assuming this was a distinct project)
         title: "Fix It In Post", // Renamed from duplicate
         image: "./ASSETS/assets/FIIP/FIXITINPOST_logo.png",
-        tags: ["Adobe After Effects", "Blender"],
+        tags: ["Adobe After Effects", "Blender"],// already done
         description: "During my internship at Fix It In Post Studios, I contributed to various projects involving VFX compositing, 2D/3D animation," +
             " motion graphics, and graphic design for films, ad films, and music videos.",
     },
@@ -211,7 +211,7 @@ export const projects = [
         id: 'proj-card-6', // Unique ID for linking (assuming this was a distinct project)
         title: "RV Matrix Software Technologies Pvt Ltd", // Renamed from duplicate
         image: "./ASSETS/assets/RVM/RVM_logo.png", // Use correct image
-        tags: ["Adobe Photoshop", "Figma"],
+        tags: ["Adobe Photoshop", "Figma"],// already done
         description: "UI/UX Design and Graphic Designer intern at RV Matrix Software Technologies.",
     },
 ];
@@ -219,14 +219,14 @@ export const projects = [
 
 
 export const modalProjectDetails = {
-    'proj-card-1': { // Matches id from projects array
-        banner: '/images/project3.png', // <<<<---- ADD Actual Banner Path
+    'proj-card-1': {
+        banner: '/images/project3.webp',
         livePreviewUrl: 'https://github.com/', // <<<<---- ADD Live Preview URL
         details: [ // <<<<---- ADD Detailed Content for Modal
             { type: 'paragraph', content: 'Detailed description about Project 1. Explain the goals, challenges, and outcomes.' },
-            { type: 'image', src: '/images/project-1-detail-image.png', alt: 'Screenshot of Project 1 feature' },
+            { type: 'image', src: '/images/project-1-detail-image.webp', alt: 'Screenshot of Project 1 feature' },
             { type: 'heading', level: 2, content: 'Technologies Used' },
-            { type: 'bulletList', items: ['React', 'Node.js', 'CSS Modules'] }
+            { type: 'bulletList', items: ['React', 'Node.js', 'CSS Modules'] } //already done
         ]
     },
     'proj-card-2': { // Matches id from projects array
@@ -239,12 +239,12 @@ export const modalProjectDetails = {
             { type: 'paragraph', content: 'These models are textured using tools like Blender or Quixel, and refined in Unreal Material Editor. Finally, lighting, visual effects, and post-processing are added, followed by optimization and rendering using Unreal’s powerful real-time engine.\n' },
             { type: 'paragraph', content: 'Note - I am not able to show the Actual project output\n' },
             { type: 'video', src: './ASSETS/assets/Thirukural/1.mp4', caption: 'Fort Output' },
-            { type: 'video', src: './ASSETS/assets/Thirukural/2.mp4', caption: 'Fort Output' },
-            { type: 'video', src: './ASSETS/assets/Thirukural/3.mp4', caption: 'Fort Output' },
-            { type: 'video', src: './ASSETS/assets/Thirukural/4.mp4', caption: 'Fort Output' },
-            { type: 'video', src: './ASSETS/assets/Thirukural/5.mp4', caption: 'Fort Output' },
-            { type: 'image', src: './ASSETS/assets/Thirukural/1.png', caption: 'Fort Output' },
-            { type: 'image', src: './ASSETS/assets/Thirukural/Temple.png', caption: 'Fort Output' },
+            { type: 'video', src: './ASSETS/assets/Thirukural/2.webm', caption: 'Fort Output' },
+            { type: 'video', src: './ASSETS/assets/Thirukural/3.webm', caption: 'Fort Output' },
+            { type: 'video', src: './ASSETS/assets/Thirukural/4.webm', caption: 'Fort Output' },
+            { type: 'video', src: './ASSETS/assets/Thirukural/5.webm', caption: 'Fort Output' },
+            { type: 'image', src: './ASSETS/assets/Thirukural/1.webp', caption: 'Fort Output' },
+            { type: 'image', src: './ASSETS/assets/Thirukural/Temple.webp', caption: 'Fort Output' },
 
 
 
@@ -256,13 +256,13 @@ export const modalProjectDetails = {
             { type: 'heading', level:2, content: 'Nippon Paints - Pro Champs' },
             { type: 'paragraph', level:2, content: 'For Nippon Pro Champs, under Fix It In Post Studios, I spearheaded a comprehensive video project. My responsibilities included Character animation, animating sequences, editing footage, creating open card animations, and selecting background music, resulting in a polished and engaging final product.' },
             { type: 'video', src: './ASSETS/assets/Nippon/Vid1.mp4', caption: 'Nippon Paints - Pro Champs' },
-        ]
+        ] // already done
     },
 
-    'proj-card-4': { // Matches id from projects array
-        banner: './ASSETS/assets/madras canine club/images.jpg',
+    'proj-card-4': {
+        banner: './ASSETS/assets/madras canine club/images.webp',
 
-        details: [ // <<<<---- ADD Detailed Content for Modal
+        details: [
             { type: 'heading', level:3, content: 'Madras Canine Club - Dog show 3D layout'},
             { type: 'paragraph', content: 'In this project, we are tasked with creating a detailed 3D visual layout for the Madras Canine Club Dog Show. The layout includes several key areas: the lunch area, stage, ring, working area, and various types of stalls.'},
 
@@ -272,43 +272,43 @@ export const modalProjectDetails = {
             { type: 'paragraph', level:2, content: 'The layout is provided by the client, and our aim is to deliver an accurate and visually appealing 3D model to help the organizers and participants visualize the event setup.' },
 
             { type: 'heading', level:2, content: 'Final Layout Animation' },
-            {type: 'video', src: './ASSETS/assets/madras canine club/vid1.mp4', alt: 'loading' },
+            {type: 'video', src: './ASSETS/assets/madras canine club/vid1.webm', alt: 'loading' },
 
             { type: 'heading', level:4, content: 'Screen Grabs of Some projects' },
 
             { type: 'heading', level:2, content: 'The layout image provided by the client' },
-            {type: 'image', src: './ASSETS/assets/madras canine club/1.png', alt: 'loading' },
+            {type: 'image', src: './ASSETS/assets/madras canine club/1.webp', alt: 'loading' },
 
             { type: 'heading', level:2, content: 'The models of key areas in the layout' },
-            {type: 'image', src: './ASSETS/assets/madras canine club/2.png', alt: 'loading'},
-            {type: 'image', src: './ASSETS/assets/madras canine club/3.png', alt: 'loading' },
-            {type: 'image', src: './ASSETS/assets/madras canine club/4.png', alt: 'loading' },
-            {type: 'image', src: './ASSETS/assets/madras canine club/5.png', alt: 'loading' },
-            {type: 'image', src: './ASSETS/assets/madras canine club/6.png', alt: 'loading' },
-            {type: 'image', src: './ASSETS/assets/madras canine club/7.png', alt: 'loading' },
-            {type: 'image', src: './ASSETS/assets/madras canine club/8.png', alt: 'loading' },
+            {type: 'image', src: './ASSETS/assets/madras canine club/2.webp', alt: 'loading'},
+            {type: 'image', src: './ASSETS/assets/madras canine club/3.webp', alt: 'loading' },
+            {type: 'image', src: './ASSETS/assets/madras canine club/4.webp', alt: 'loading' },
+            {type: 'image', src: './ASSETS/assets/madras canine club/5.webp', alt: 'loading' },
+            {type: 'image', src: './ASSETS/assets/madras canine club/6.webp', alt: 'loading' },
+            {type: 'image', src: './ASSETS/assets/madras canine club/7.webp', alt: 'loading' },
+            {type: 'image', src: './ASSETS/assets/madras canine club/8.webp', alt: 'loading' },
 
             { type: 'heading', level:2, content: 'Compositing the models based on the layout' },
-            {type: 'image', src: './ASSETS/assets/madras canine club/9.png', alt: 'loading' },
-            {type: 'image', src: './ASSETS/assets/madras canine club/10.png', alt: 'loading' },
-            {type: 'image', src: './ASSETS/assets/madras canine club/11.png', alt: 'loading' },
-            {type: 'image', src: './ASSETS/assets/madras canine club/12.png', alt: 'loading' },
-            {type: 'image', src: './ASSETS/assets/madras canine club/13.png', alt: 'loading' },
-            {type: 'image', src: './ASSETS/assets/madras canine club/14.png', alt: 'loading' },
+            {type: 'image', src: './ASSETS/assets/madras canine club/9.webp', alt: 'loading' },
+            {type: 'image', src: './ASSETS/assets/madras canine club/10.webp', alt: 'loading' },
+            {type: 'image', src: './ASSETS/assets/madras canine club/11.webp', alt: 'loading' },
+            {type: 'image', src: './ASSETS/assets/madras canine club/12.webp', alt: 'loading' },
+            {type: 'image', src: './ASSETS/assets/madras canine club/13.webp', alt: 'loading' },
+            {type: 'image', src: './ASSETS/assets/madras canine club/14.webp', alt: 'loading' },
 
             { type: 'heading', level:2, content: 'Compositing the models with textures based on the layout' },
-            {type: 'image', src: './ASSETS/assets/madras canine club/15.png', alt: 'loading' },
-            {type: 'image', src: './ASSETS/assets/madras canine club/16.png', alt: 'loading' },
-            {type: 'image', src: './ASSETS/assets/madras canine club/17.png', alt: 'loading' },
-            {type: 'image', src: './ASSETS/assets/madras canine club/18.png', alt: 'loading' },
-            {type: 'image', src: './ASSETS/assets/madras canine club/19.png', alt: 'loading' },
+            {type: 'image', src: './ASSETS/assets/madras canine club/15.webp', alt: 'loading' },
+            {type: 'image', src: './ASSETS/assets/madras canine club/16.webp', alt: 'loading' },
+            {type: 'image', src: './ASSETS/assets/madras canine club/17.webp', alt: 'loading' },
+            {type: 'image', src: './ASSETS/assets/madras canine club/18.webp', alt: 'loading' },
+            {type: 'image', src: './ASSETS/assets/madras canine club/19.webp', alt: 'loading' },
         ]
     },
 
-    'proj-card-5': { // Matches id from projects array
-        banner: './ASSETS/assets/FIIP/FIXITINPOST_logo.png', // <<<<---- ADD Actual Banner Path
+    'proj-card-5': {
+        banner: './ASSETS/assets/FIIP/FIXITINPOST_logo.webp', // already done
 
-        details: [ // <<<<---- ADD Detailed Content for Modal
+        details: [
             { type: 'heading', level:2, content: 'Contributions & Responsibilities (Internship)' },
             { type: 'paragraph', content: 'During my internship at Fix It In Post Studios, I contributed to various projects involving VFX compositing, 2D/3D animation, motion graphics, and graphic design for films, ad films, and music videos.'},
 
@@ -329,26 +329,26 @@ export const modalProjectDetails = {
 
             { type: 'heading', level:2, content: 'Screen Grabs of Some projects' },
 
-            {type: 'image', src: './ASSETS/assets/FIIP/HF_APP.png', alt: 'loading', caption: 'Designed and animated with composition of elements within the shots for the movie "Adhomugam"'},
+            {type: 'image', src: './ASSETS/assets/FIIP/HF_APP.webp', alt: 'loading', caption: 'Designed and animated with composition of elements within the shots for the movie "Adhomugam"'},
             {type: 'image', src: './ASSETS/assets/FIIP/casa_raw.png', alt: 'loading'},
-            {type: 'image', src: './ASSETS/assets/FIIP/casa.png', alt: 'loading',  caption:'VFX Compositing, Motion Graphics, 3D Compositing for Casagrand Primrose Ad'},
-            {type: 'image', src: './ASSETS/assets/FIIP/diesel.png', alt: 'loading', caption: '2D & 3D Motion Graphics for the movie diesel' },
-            {type: 'image', src: './ASSETS/assets/FIIP/NativeCraft.png', alt: 'loading', caption: 'Designed and animated the Logo for a production company' },
-            {type: 'image', src: './ASSETS/assets/FIIP/FC.png', alt: 'loading', caption: '2D and 3D compositing for the the movie FightClub' },
-            {type: 'image', src: './ASSETS/assets/FIIP/NNN.png', alt: 'loading', caption: 'Assisted VFX supervision and VFX compositing for the video song "Nee Nee Nee" ' },
+            {type: 'image', src: './ASSETS/assets/FIIP/casa.webp', alt: 'loading',  caption:'VFX Compositing, Motion Graphics, 3D Compositing for Casagrand Primrose Ad'},
+            {type: 'image', src: './ASSETS/assets/FIIP/diesel.webp', alt: 'loading', caption: '2D & 3D Motion Graphics for the movie diesel' },
+            {type: 'image', src: './ASSETS/assets/FIIP/NativeCraft.webp', alt: 'loading', caption: 'Designed and animated the Logo for a production company' },
+            {type: 'image', src: './ASSETS/assets/FIIP/FC.webp', alt: 'loading', caption: '2D and 3D compositing for the the movie FightClub' },
+            {type: 'image', src: './ASSETS/assets/FIIP/NNN.webp', alt: 'loading', caption: 'Assisted VFX supervision and VFX compositing for the video song "Nee Nee Nee" ' },
         ]
     },
-    'proj-card-6': { // Matches id from projects array
-        banner: './ASSETS/assets/RVM/RVM_logo.jpg', // <<<<---- ADD Actual Banner Path
+    'proj-card-6': {
+        banner: './ASSETS/assets/RVM/RVM_logo.webp',
 
-        details: [ // <<<<---- ADD Detailed Content for Modal
+        details: [
             { type: 'heading', level:2, content: 'Role and Responsibilities (Internship)' },
             { type: 'paragraph', content: 'As a UI/UX Design and Graphic Designer intern at RV Matrix Software Technologies, my primary focus was creating user-centered designs for web applications and supporting marketing efforts with graphic assets.'},
             { type: 'bulletList', items: ['Developed low and high-fidelity wireframes and mockups using Figma and Adobe XD.',
                     'Created intuitive user flows and interface solutions based on project requirements.',
                     'Designed graphic assets (icons, banners, illustrations) for web applications and marketing materials using Photoshop.',
-                    'Iterated on designs based on feedback from senior designers and stakeholders.',
-                    'Ensured visual consistency across different design elements.',
+                    'Iterated on designs based on feedback from senior designers and stakeholders.', // already done
+                    'Ensured visual consistency across different design elements.', // already done
                     'Created intuitive user flows and interface solutions based on project requirements.',
                     'Gained practical experience in applying UI design principles and utilizing industry-standard design software.'
                 ] },
@@ -356,14 +356,13 @@ export const modalProjectDetails = {
             { type: 'bulletList', items: ['UI/UX Design', 'Figma', 'Adobe XD', 'Photoshop', 'Illustrator', 'Blender'] },
             { type: 'heading', level:2, content: 'My works' },
             {type: 'image', src: './ASSETS/assets/RVM/Medikcare_webUI_design.jpg', alt: 'RV Matrix Software Technologies', caption: 'Medikcare Web UI design in figma'},
-            {type: 'image', src: './ASSETS/assets/RVM/Medikcare_webUI_Prototype.jpg', alt: 'RV Matrix Software Technologies',caption: 'Medikcare Web UI Prototype in figma'},
-            {type: 'image', src: './ASSETS/assets/RVM/rvm1.png', alt: 'RV Matrix Software Technologies', caption: 'Appreciation Posters'},
-            {type: 'image', src: './ASSETS/assets/RVM/rvm2.png', alt: 'RV Matrix Software Technologies' },
-            {type: 'image', src: './ASSETS/assets/RVM/rvm3.png', alt: 'RV Matrix Software Technologies' },
-            {type: 'image', src: './ASSETS/assets/RVM/rvm4.png', alt: 'RV Matrix Software Technologies' },
-            {type: 'image', src: './ASSETS/assets/RVM/rvm5.png', alt: 'RV Matrix Software Technologies', caption: 'Hiring Posters Materials'  },
-            {type: 'image', src: './ASSETS/assets/RVM/rvm6.png', alt: 'RV Matrix Software Technologies', caption: 'Appreciation Posters'  },
-
+            {type: 'image', src: './ASSETS/assets/RVM/Medikcare_webUI_Prototype.webp', alt: 'RV Matrix Software Technologies',caption: 'Medikcare Web UI Prototype in figma'},
+            {type: 'image', src: './ASSETS/assets/RVM/rvm1.webp', alt: 'RV Matrix Software Technologies', caption: 'Appreciation Posters'},
+            {type: 'image', src: './ASSETS/assets/RVM/rvm2.webp', alt: 'RV Matrix Software Technologies' },
+            {type: 'image', src: './ASSETS/assets/RVM/rvm3.webp', alt: 'RV Matrix Software Technologies' },
+            {type: 'image', src: './ASSETS/assets/RVM/rvm4.webp', alt: 'RV Matrix Software Technologies' },
+            {type: 'image', src: './ASSETS/assets/RVM/rvm5.webp', alt: 'RV Matrix Software Technologies', caption: 'Hiring Posters Materials'  },
+            {type: 'image', src: './ASSETS/assets/RVM/rvm6.webp', alt: 'RV Matrix Software Technologies', caption: 'Appreciation Posters'  },
 
         ]
     },
