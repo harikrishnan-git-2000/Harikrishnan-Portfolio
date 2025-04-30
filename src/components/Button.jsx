@@ -26,7 +26,7 @@ const Button = ({ text, className, href, onClick }) => {
                 <div className="bg-circle" />
                 <p className="text">{text}</p>
                 <div className="arrow-wrapper">
-                    <img src="/images/arrow-down.svg" alt="SeeMyWork" />
+                    <img src="./images/arrow-down-min.svg" alt="SeeMyWorks!" />
                 </div>
             </div>
         </a>

@@ -10,6 +10,6 @@ export default defineConfig({
     plugins: [react(), tailwindcss()],
     build: {
         outDir: path.resolve(__dirname, 'dist'),
+        sourcemap:true,
     },
-    base: process.env.VITE_BASE_PATH || '/react-vite-deploy',
 });

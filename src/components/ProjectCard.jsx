@@ -29,7 +29,7 @@ const ProjectCard = ({ project, onClick }) => {
             aria-label={`View details for ${project.title}`}
         >
             <img className="object-fit-contain project-image"
-                src={project.image || '/images/placeholder-thumb.jpg'}
+                src={project.image || './images/placeholder-thumb.webp'}
                 alt={`${project.title || 'Project'} thumbnail`}
             />
             <div className="text-content">

@@ -1,7 +1,7 @@
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls,Float } from '@react-three/drei';
 import { FlyingRobot } from "./FlyingRobot.jsx";
-import { Suspense } from 'react';
+// import { Suspense } from 'react';
 import { useMediaQuery } from "react-responsive";
 import HeroLights from "./HeroLights.jsx";
 
@@ -15,7 +15,7 @@ const HeroExperience = () => {
             <Canvas camera={{ position: [0, 0, 13], fov: 45 }}>
                 <HeroLights/>
                 <OrbitControls
-                    enablePan={false}
+                    enablePan={!isTablet && !isMobile}
                     enableZoom={!isTablet && !isMobile}
                     minDistance={5}
                     maxDistance={20}
