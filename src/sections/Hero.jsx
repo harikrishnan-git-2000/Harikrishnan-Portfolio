@@ -27,7 +27,7 @@ const Hero = () => {
                 <header className="flex flex-col justify-center md:w-full w-screen md:px-10 px-5 ">
                     <div className="flex flex-col gap-7">
                         <div className="hero-text">
-                            <h1>Shaping
+                            <h1 className="heroH1">Shaping
                             <span className="slide">
                                 <span className="wrapper">
                                     {words.map((word,index)=>(
@@ -40,8 +40,8 @@ const Hero = () => {
                                 </span>
                             </span>
                             </h1>
-                            <h1>into real projects</h1>
-                            <h1>that deliver results</h1>
+                            <h1 className="heroH1">into real projects</h1>
+                            <h1 className="heroH1">that deliver results</h1>
                         </div>
                         <p className="text-white-50 md:text-xl relative">
                             Hello!, I'm Harikrishnan a Front-End Developer, <br/>
@@ -50,7 +50,7 @@ const Hero = () => {
 
                         <Button className="md:w-80 md:h-16 w-60 h-12"
                         id="button"
-                        href="#work"
+                        href="#Work"
                         text="See my works!"/>
 
                     </div>

@@ -58,7 +58,7 @@ const ShowcaseSection = () => {
     }, []);
 
     return (
-        <section ref={container} id="work" className="app-showcase text-white" style={{ marginTop: '70px' }}>
+        <section ref={container} id="Work" className="app-showcase text-white" style={{ marginTop: '70px' }}>
             <TitleHeader
                 title="My Projects"
                 sub="💻 Showcasing My Work"

@@ -43,7 +43,7 @@ function AboutMe() {
                 toggleActions: "play none none none", // "onEnter onLeave onEnterBack onLeaveBack" -> play animation on enter
                 scrub: true, // Optional: Smoothly animate based on scroll position
                 // markers: true, // Optional: Show visual markers for debugging start/end points
-                once: false                // Optional: Only trigger the animation once
+                once: true               // Optional: Only trigger the animation once
             },
             defaults: { duration: 0.8, ease: 'power3.out' }
         });

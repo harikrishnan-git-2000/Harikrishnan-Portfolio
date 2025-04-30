@@ -7,9 +7,9 @@ import {gsap} from "gsap";
 
 const TechStack = () => {
     useGSAP(() => {
-        gsap.fromTo(".tech-card", { y: 30, opacity: 0 },
-        { y: 0, opacity: 1, stagger: 0.1, duration: 0.2, scrub:true, ease: "power2.inout",
-        scrollTrigger: { trigger: '#skills', start: "top-center" } });
+        gsap.fromTo(".tech-card", { y:50, opacity: 0 },
+        { y:0, opacity: 1, stagger: 0.5, duration: 0.4, ease: "power4.in",
+        scrollTrigger: { trigger:'TechStack', start:"bottom-center" } });
     })
 
     return (
