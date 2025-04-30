@@ -19,7 +19,6 @@ const Button = ({ text, className, href, onClick }) => {
     return (
         <a 
             href="#Work"
-            onClick={handleClick}
             className={`${className ?? ''} cta-wrapper`}
         >
             <div className="cta-button group">
