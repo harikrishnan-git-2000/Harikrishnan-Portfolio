@@ -213,9 +213,9 @@ export const modalProjectDetails = {
         banner: './ASSETS/assets/weather-app/cover.webp',
         details: [ // <<<<---- ADD Detailed Content for Modal
             { type: 'paragraph', content: 'view app ->' },
-            { type: "buttonlink", href: "https://linkedin.com/in/your-profile", label: "Live Preview" },
+            { type: "buttonlink", href: "https://weather-app-react-eight-teal.vercel.app/", label: "Live Preview" },
             { type: 'paragraph', content: 'view code ->' },
-            { type: "buttonlink", href: "https://linkedin.com/in/your-profile", label: "View Code" },
+            { type: "buttonlink", href: "https://github.com/harikrishnan-git-2000/weather_app-React", label: "View Code" },
             { type: 'heading', level: 2, content: '1. Introduction' },
             { type: 'paragraph', content: 'This document presents a case study of a real-time weather application developed using React. The application aims to provide users with current weather conditions and a 24-hour hourly forecast for any specified city. This project showcases my skills in frontend development, API integration, state management, and responsive design.' },
             { type: 'heading', level: 2, content: '2. Project Overview' },
