@@ -151,7 +151,7 @@ const socialImgs = [
     },
     {
         name: "linkedin",
-        url: "www.linkedin.com/in/harikrishnan3107",
+        url: "https://www.linkedin.com/in/harikrishnan3107/",
         imgPath: "./images/linkedin.webp",
     },
 ];
@@ -279,9 +279,6 @@ export const modalProjectDetails = {
 
             { type: 'heading', level: 2, content: '8. Conclusion' },
             { type: 'paragraph', content: 'The Real-Time Weather Application showcases my skills in front-end development using React and API integration. The project demonstrates my ability to create functional, user-friendly, and responsive web solutions.' },
-
-
-
         ]
     },
     'proj-card-2': { // Matches id from projects array
@@ -300,9 +297,6 @@ export const modalProjectDetails = {
             { type: 'video', src: './ASSETS/assets/Thirukural/5.webm', caption: 'Fort Output' },
             { type: 'image', src: './ASSETS/assets/Thirukural/1.webp', caption: 'Fort Output' },
             { type: 'image', src: './ASSETS/assets/Thirukural/Temple.webp', caption: 'Fort Output' },
-
-
-
         ]
     },
     'proj-card-3': { // Matches id from projects array
