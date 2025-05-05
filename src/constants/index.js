@@ -210,13 +210,75 @@ export const projects = [
 
 export const modalProjectDetails = {
     'proj-card-1': {
-        banner: '/images/project3.webp',
-        livePreviewUrl: 'https://github.com/', // <<<<---- ADD Live Preview URL
+        banner: './ASSETS/assets/weather-app/cover.webp',
+        livePreviewUrl: 'https://weather-app-react-eight-teal.vercel.app/',
         details: [ // <<<<---- ADD Detailed Content for Modal
-            { type: 'paragraph', content: 'Detailed description about Project 1. Explain the goals, challenges, and outcomes.' },
-            { type: 'image', src: './images/project3.webp', alt: 'Screenshot of Project 1 feature' },
-            { type: 'heading', level: 2, content: 'Technologies Used' },
-            { type: 'bulletList', items: ['React', 'Node.js', 'CSS Modules'] } //already done
+            { type: 'heading', level: 2, content: '1. Introduction' },
+            { type: 'paragraph', content: 'This document presents a case study of a real-time weather application developed using React. The application aims to provide users with current weather conditions and a 24-hour hourly forecast for any specified city. This project showcases my skills in frontend development, API integration, state management, and responsive design.' },
+            { type: 'heading', level: 2, content: '2. Project Overview' },
+            { type: 'paragraph', content: 'The Real-Time Weather Application is a web-based tool designed to deliver timely and accurate weather information to users. Key functionalities include searching for weather data by city name, displaying current weather details (temperature, description, icon), and presenting an hourly forecast for the upcoming 24 hours. The application prioritizes a clean, intuitive user interface and efficient data handling.' },
+            { type: 'heading', level: 2, content: '3. Key Features' },
+            {
+                type: 'bulletList', items: [
+                    'City Search: Users can input a city name to retrieve weather information.',
+                    'Current Weather Display: Displays temperature, weather description, and a representative icon.',
+                    '24-Hour Hourly Forecast: Provides an hourly breakdown of weather conditions for the next 24 hours.',
+                    'No Results Handling: Displays a "No Results" message when a city is not found or an error occurs.',
+                    'Responsive Design: Accessible and usable on various screen sizes (desktops, tablets, and mobile phones).'
+                ]
+            },
+
+            { type: 'heading', level: 2, content: '4. Technology Stack' },
+            { type: 'bulletList', items: [
+                    'Frontend Framework: React',
+                    'Styling: CSS Modules',
+                    'Build Tool: Vite',
+                    'Version Control: Git',
+                    'Repository Hosting: https://github.com/harikrishnan-git-2000/weather_app-React.git',
+                    'Deployment: Vercel.',
+                ]
+            },
+
+            { type: 'heading', level: 2, content: '5. Development Process and Challenges' },
+            { type: 'bulletList', items: [
+                    'API Integration: Researching and selecting the WeatherAPI, obtaining an API key, and understanding its documentation.',
+                    'Frontend Implementation (React): Setting up the project using Vite, Creating reusable React components, Implementing state management with useState, Utilizing useEffect and useRef hooks, Developing a function to filter hourly forecast data, Dynamically rendering weather icons, Implementing conditional rendering for error handling.',
+                    'Styling and Responsiveness: Applying styles using CSS Modules and implementing media queries.',
+                    'Error Handling: Implementing try...catch blocks and updating the application state (hasNoResults).',
+                ]
+            },
+            { type: 'heading', level: 2, content: 'Challenges and Solutions:' },
+            { type: 'paragraph', content: 'The development process presented several challenges. Managing asynchronous API requests was a key issue, which was resolved by using async/await and state variables. Extracting relevant data from the API response required implementing a function to filter the hourly data. Translating API weather codes to icons was another challenge, addressed by creating a weatherCodes mapping. Finally, ensuring the layout adapted to different screen sizes was achieved by implementing CSS media queries.' },
+
+            { type: 'heading', level: 2, content: '6. Key Learnings and Outcomes' },
+            { type: 'bulletList', items: [
+                    'React fundamentals, including components, JSX, props, useState, and useEffect.',
+                    'Asynchronous programming and API integration.',
+                    'Data manipulation and filtering.',
+                    'Error handling.',
+                    'Responsive web design.',
+                    'Component-based architecture.',
+                    'Vite build tool.',
+                ]
+            },
+            { type: 'paragraph', content: 'The application demonstrates my ability to develop a functional web application that integrates with external services and provides a positive user experience.' },
+
+            { type: 'heading', level: 2, content: '7. Future Enhancements' },
+            { type: 'bulletList', items: [
+                    'Displaying additional weather details.',
+                    'Implementing a multi-day forecast view.',
+                    'Adding geolocation services.',
+                    'Allowing users to save favorite cities.',
+                    'Enhancing the visual design.',
+                    'Implementing testing.',
+                ]
+            },
+
+            { type: 'heading', level: 2, content: '8. Conclusion' },
+            { type: 'paragraph', content: 'The Real-Time Weather Application showcases my skills in front-end development using React and API integration. The project demonstrates my ability to create functional, user-friendly, and responsive web solutions.' },
+
+
+
         ]
     },
     'proj-card-2': { // Matches id from projects array
