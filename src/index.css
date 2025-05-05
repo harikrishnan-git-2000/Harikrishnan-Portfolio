@@ -498,7 +498,3 @@ section {
 .card:hover::before {
     opacity: 1;
 }
-
-.modalbtn{
-    margin-bottom: auto;
-}
