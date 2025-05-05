@@ -151,7 +151,7 @@ const socialImgs = [
     },
     {
         name: "linkedin",
-        url: "https://www.linkedin.com/",
+        url: "www.linkedin.com/in/harikrishnan3107",
         imgPath: "./images/linkedin.webp",
     },
 ];
