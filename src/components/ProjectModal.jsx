@@ -65,6 +65,9 @@ const ProjectModal = ({ project, onClose }) => {
             case 'image': return (<figure key={index} className="my-6"><img src={detail.src} alt={detail.alt || 'Project image'} className="rounded-lg shadow-md w-full object-contain max-h-[70vh] bg-black/20" />{detail.caption && <figcaption className="text-center text-sm text-gray-400 mt-2 italic">{detail.caption}</figcaption>}</figure>);
             case 'video': return (<figure key={index} className="my-6"><video controls src={detail.src} className="rounded-lg shadow-md w-full bg-black/20">Your browser does not support the video tag.</video>{detail.caption && <figcaption className="text-center text-sm text-gray-400 mt-2 italic">{detail.caption}</figcaption>}</figure>);
             case 'bulletlist': return (<ul key={index} className="list-disc list-inside text-gray-300 my-4 space-y-1 pl-4">{detail.items?.map((item, i) => <li key={i}>{item}</li>)}</ul>);
+            case 'buttonlink': return (<div key={index} className="my-4"> <a href={detail.href} target="_blank" rel="noopener noreferrer" className="text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:ring-blue-300 rounded-lg text-sm px-4 py-2 transition">{detail.label || 'Link'}</a></div>);
+
+
             default: console.warn(`Unknown detail type: ${detail.type}`); return null;
         }
     };

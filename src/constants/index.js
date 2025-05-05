@@ -213,6 +213,7 @@ export const modalProjectDetails = {
         banner: './ASSETS/assets/weather-app/cover.webp',
         livePreviewUrl: 'https://weather-app-react-eight-teal.vercel.app/',
         details: [ // <<<<---- ADD Detailed Content for Modal
+            { type: "buttonlink", href: "https://linkedin.com/in/your-profile", label: "LinkedIn" },
             { type: 'heading', level: 2, content: '1. Introduction' },
             { type: 'paragraph', content: 'This document presents a case study of a real-time weather application developed using React. The application aims to provide users with current weather conditions and a 24-hour hourly forecast for any specified city. This project showcases my skills in frontend development, API integration, state management, and responsive design.' },
             { type: 'heading', level: 2, content: '2. Project Overview' },
