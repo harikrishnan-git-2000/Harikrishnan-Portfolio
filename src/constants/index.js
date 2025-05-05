@@ -160,7 +160,7 @@ export const projects = [
     {
         id: 'proj-card-1', // Unique ID for linking
         title: "Weather App in React",
-        image: "./ASSETS/assets/weather-app/weatherapp.webp",
+        image: "./ASSETS/assets/weather-app/cover.webp",
         tags: ["React js"],
         description: "created a weather app in react js",
 
