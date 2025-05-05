@@ -145,19 +145,9 @@ const expLogos = [
 
 const socialImgs = [
     {
-        name: "insta",
-        url: "https://www.instagram.com/",
-        imgPath: "./images/insta.webp",
-    },
-    {
-        name: "fb",
-        url: "https://www.facebook.com/",
-        imgPath: "./images/fb.webp",
-    },
-    {
-        name: "x",
-        url: "https://www.x.com/",
-        imgPath: "./images/x.webp",
+        name: "github",
+        url: "https://github.com/harikrishnan-git-2000",
+        imgPath: "./images/git.webp",
     },
     {
         name: "linkedin",
@@ -169,17 +159,17 @@ const socialImgs = [
 export const projects = [
     {
         id: 'proj-card-1', // Unique ID for linking
-        title: "Instagram clone",
-        image: "./images/project3.webp",
-        tags: ["Angular", "MongoDB"],
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        title: "Weather App in React",
+        image: "./ASSETS/assets/weather-app/weatherapp.webp",
+        tags: ["React js"],
+        description: "created a weather app in react js",
 
     },
     {
         id: 'proj-card-2', // Unique ID for linking (assuming this was a distinct project)
         title: "Thirukural - feature film CG (Self Employed)", // Renamed from duplicate
         image: "./ASSETS/assets/Thirukural/Templecover.webp", // Use correct image
-        tags: ["Svelte", "Firebase"],
+        tags: ["Unreal Engine 5"],
         description: "Created movie shots depicting the forts of the three kings in south india",
 
     },

@@ -24,7 +24,7 @@ const HeroExperience = () => {
                 />
                 <Float speed={5.5} rotationIntensity={.5} floatIntensity={.8}>
                 <group
-                    scale={isMobile ? 1 : 2}
+                    scale={isMobile ? 1.2 : 1.8}
                     position={[0, -2, 0]}
                     rotation={[0, Math.PI/4, 0]}
                 >
